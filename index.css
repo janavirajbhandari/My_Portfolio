@@ -115,7 +115,7 @@ p{
         top: 1px;
          */
 }
-
+/* mobile devices */
 @media(min-width:320px) and (max-width:480px){
     
     .container {
@@ -171,6 +171,40 @@ p{
 }
 }
   
-@media(min-width:320px) and (max-width:858px){
-    .che
-
+/*tablet devices*/
+@media(min-width:481px) and (max-width:768px){
+    .container {
+        width: 101%;
+        height: 101vh;
+    }
+    .navItems li {
+        list-style: none;
+        margin: 0px 4px 54px;
+    }
+    .navItems li a {
+        font-size: 13px;}
+    .links a {
+        font-size: 18px;
+        margin: 19px 2px;
+    }
+    .navItems {
+        margin-left: -129px;}
+    .j {
+        margin-top: 14px;
+        margin-left: -14px;
+        width: 31%;}
+    .wrapper{
+        margin: 49px;
+        width: 163%;
+    }
+    .topline {
+        font-size: 24px;}
+        h1 {
+            display: block;
+            font-size: 4em;}
+    .imgbox img {
+        top: 177px;
+        right: 455px;
+        width: 41%;
+}
+}

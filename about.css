@@ -113,6 +113,7 @@ nav{
     from {translate: 0 60px;}
     to {translate:none; opacity: 2;}
 }
+/*Mobile Devices*/
 @media(min-width:320px) and (max-width:480px){
     
     .container {
@@ -157,4 +158,43 @@ nav{
     margin-top: 139px;
     width: 229px;
     margin-left: -11px;}
+}
+/*tablet devices*/
+@media(min-width:481px) and (max-width:768px){
+    .navItems {
+        margin-left: 15px;
+}
+.navItems li {
+    margin: 2px 4px 48px;
+}
+.navItems li a {
+    font-size: 13px;}
+.about {
+    font-size: 27px;}
+.j {
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 42%;
+    }
+    .one {
+        margin-left: 38px;
+        margin-top: 37px;
+        font-size: 34px;}
+        .second {
+            margin-left: 67px;
+            margin-top: 2px;
+            font-size: 34px;}
+    .line {
+     margin-left: 13px;
+        }
+    .para1 {
+        width: 90%;
+        margin-left: 34px;
+        margin-top: 8px;
+        font-size: 18px;
+        }
+        .meme {
+            margin-top: 53px;
+            width: 269px;
+            margin-left: 23px;}
 }

@@ -8,7 +8,7 @@
 .container{
     width: 100%;
     height: 15vh;
-    background-color: #F8F6F4;
+    background: linear-gradient(135deg, #DCE0E6 20%, #DCE0E6 80%);
     
 }
 nav{
@@ -52,7 +52,7 @@ nav{
 }
 .con{
     font-size: 27px;
-    color: rgb(131,94,71);
+    color:#537188;
 }
 .j{
     margin-top: 20px;
@@ -135,17 +135,17 @@ h2{
     width: 110%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
-    background-color: #2ecc71;
+    background-color: #537188;
     outline: none;
     color: #fff;
     cursor: pointer;
     border: none;
 }
 .btn:hover{
-    background-color: #27ae60; 
+    background-color:  #73A9AD;
 
 }
-
+/* Mobile Devices*/
 @media(min-width:320px) and (max-width:480px){
     .contact-box{
         grid-template-columns: 1fr;
@@ -179,3 +179,23 @@ h2{
         width: 110%;
         height: 101vh;
 }}
+
+/*tablet devices*/
+@media(min-width:481px) and (max-width:768px){
+    .navItems {
+        margin-left: 15px;
+}
+.navItems li {
+    margin: 2px 4px 48px;
+}
+.navItems li a {
+    font-size: 13px;}
+.j {
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 42%;
+    }    
+    .con {
+        font-size: 24px;
+    }
+} 
